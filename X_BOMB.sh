@@ -27,21 +27,21 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing X_BOMB'
+        echo 'Introducing VipBomber'
     else
-        figlet X_BOMB
+        figlet VipBomber
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mhackerxphantom\e[0m"
+        echo -e "\e[4;34m This BomberHack Was Created By \e[1;32mKrishnaGuptajii\e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border X_PH4N70M
+        toilet -f mono12 -F border KrishnaGuptajii
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Telegram: https://t.me/X_PH4N7OM \e[0m"
-    echo -e "\e[4;32m   JOIN US: https://bit.ly/3PV3S3r \e[0m"
+    echo -e "\e[1;32m           Telegram: https://t.me/Krishnavip\e[0m"
+    echo -e "\e[4;32m   Instagram DM: Its_Vip_Krishna_Gupta \e[0m"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of X_BOMB for more stability."
+    echo "NOTE: Kindly move to the PIP version Of VipCallbomber for more stability."
     echo " "
 }
 
@@ -98,7 +98,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By X PHANTOM X_PH4N7OM > .update
+    echo This Script Was Made By X KrishnaGupta > .update
     echo 'Requirements Installed....'
     pause
 fi
@@ -110,7 +110,7 @@ do
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
     echo "Press 3 To  Start MAIL Bomber (Not Yet Available)"
-    echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
+    echo "Press 4 To  Update (Works On Nonroot And Root ) "
     echo "Press 5 To  Exit "
     read ch
     echo "select option "
@@ -128,7 +128,7 @@ do
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
         $PYTHON bomber.py --update
-        echo -e "\e[1;34m RUN X_BOMB Again..."
+        echo -e "\e[1;34m RUN VipBomber.py Again..."
         pause
         exit
     elif [ $ch -eq 5 ];then
