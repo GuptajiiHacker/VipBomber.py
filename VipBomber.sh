@@ -35,13 +35,13 @@ banner() {
         echo -e "\e[4;34m This BomberHack Was Created By \e[1;32mKrishnaGuptajii\e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border KrishnaGuptajii
+        toilet -f mono12 -F border Krishna Guptajii
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Telegram: https://t.me/Krishnavip\e[0m"
+    echo -e "\e[1;32m           Telegram: https://t.me/+fLlxQqubNpY1OGM9[0m"
     echo -e "\e[4;32m   Instagram DM: Its_Vip_Krishna_Gupta \e[0m"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of VipCallbomber for more stability."
+    echo "NOTE: We will not be responsible if your use of this Hacking Tool is illegal@KrishnaGupta."
     echo " "
 }
 
